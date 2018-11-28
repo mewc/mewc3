@@ -1,0 +1,60 @@
+
+.banner .image {
+    background: linear-gradient(74deg, #ffffff, #cd0606, #003496);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    -o-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+
+}
+
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 86%
+    }
+    50% {
+        background-position: 100% 15%
+    }
+    100% {
+        background-position: 0% 86%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 86%
+    }
+    50% {
+        background-position: 100% 15%
+    }
+    100% {
+        background-position: 0% 86%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 86%
+    }
+    50% {
+        background-position: 100% 15%
+    }
+    100% {
+        background-position: 0% 86%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 86%
+    }
+    50% {
+        background-position: 100% 15%
+    }
+    100% {
+        background-position: 0% 86%
+    }
+}
